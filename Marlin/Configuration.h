@@ -27,7 +27,7 @@
 *    #define Y2_SERIAL_TX_PIN                  44 // JP
 *    #define Y2_SERIAL_RX_PIN                  66 // JP
 *    #define Z2_SERIAL_TX_PIN                  20 // JP
-*    #define Z2_SERIAL_RX_PIN                  12 //JP
+*    #define Z2_SERIAL_RX_PIN                  12 // JP
 * disable STEALTHCHOP_XY 
 *
 * row 1312
