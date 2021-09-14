@@ -19,6 +19,22 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
+/*
+* changes @09.09.2021
+* TMC2109 configured
+* X2 Driver disabled (row ~864)
+* pins_RAMPS add folowing PINs
+*    #define Y2_SERIAL_TX_PIN                  44 // JP
+*    #define Y2_SERIAL_RX_PIN                  66 // JP
+*    #define Z2_SERIAL_TX_PIN                  20 // JP
+*    #define Z2_SERIAL_RX_PIN                  12 //JP
+* disable STEALTHCHOP_XY 
+*
+* row 1312
+* #define INVERT_X_DIR false -> true
+* #define INVERT_Y_DIR true -> false
+* #define INVERT_Z_DIR false -> true
+*/
 #pragma once
 
 /**
